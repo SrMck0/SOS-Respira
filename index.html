@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Um espaço acolhedor com frases, exercícios de calma e informações sobre ansiedade.">
+  <title>Respira — Um espaço para desacelerar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <nav class="nav container" aria-label="Navegação principal">
+    <a class="logo" href="index.html"><span class="logo-mark">☁</span> Respira</a>
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <div class="nav-links">
+      <a class="active" href="index.html">Início</a>
+      <a href="frases.html">Frases</a>
+      <a href="calma.html">Momento de calma</a>
+      <a href="sobre-ansiedade.html">Entenda a ansiedade</a>
+      <a class="nav-help" href="ajuda.html">Preciso de ajuda</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+<section class="hero container">
+  <div class="hero-copy">
+    <span class="eyebrow">UM ESPAÇO PARA VOCÊ</span>
+    <h1>Respire.<br><span>Você não precisa resolver tudo agora.</span></h1>
+    <p>Um cantinho tranquilo para desacelerar, organizar os pensamentos e encontrar pequenas formas de cuidar de si.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="calma.html">Quero me acalmar <span>→</span></a>
+      <a class="btn btn-soft" href="frases.html">Ler uma frase</a>
+    </div>
+  </div>
+  <div class="hero-art" aria-hidden="true">
+    <div class="sun"></div>
+    <div class="hill hill-one"></div>
+    <div class="hill hill-two"></div>
+    <div class="cloud cloud-one">☁</div>
+    <div class="cloud cloud-two">☁</div>
+    <div class="leaf leaf-one">⌁</div>
+    <div class="leaf leaf-two">⌁</div>
+  </div>
+</section>
+
+<section class="quote-section">
+  <div class="container">
+    <div class="section-heading centered">
+      <span class="eyebrow">PARA ESTE MOMENTO</span>
+      <h2>Uma frase para acompanhar você</h2>
+    </div>
+    <article class="quote-card">
+      <span class="quote-icon">“</span>
+      <p id="homeQuote">Você pode ir devagar. Ainda assim, continua avançando.</p>
+      <button id="newQuote" class="text-button">Outra frase <span>↻</span></button>
+    </article>
+  </div>
+</section>
+
+<section class="features container">
+  <div class="section-heading">
+    <span class="eyebrow">PEQUENOS PASSOS</span>
+    <h2>O que você precisa agora?</h2>
+    <p>Escolha um caminho. Não existe obrigação de fazer tudo.</p>
+  </div>
+  <div class="feature-grid">
+    <a class="feature-card" href="frases.html">
+      <span class="feature-icon">💬</span><h3>Uma palavra de apoio</h3>
+      <p>Leia frases acolhedoras para este momento.</p><span class="arrow">→</span>
+    </a>
+    <a class="feature-card" href="calma.html">
+      <span class="feature-icon">🌿</span><h3>Preciso desacelerar</h3>
+      <p>Faça uma pausa guiada com respiração e presença.</p><span class="arrow">→</span>
+    </a>
+    <a class="feature-card" href="sobre-ansiedade.html">
+      <span class="feature-icon">🧠</span><h3>Quero entender melhor</h3>
+      <p>Conheça a ansiedade de uma maneira simples.</p><span class="arrow">→</span>
+    </a>
+    <a class="feature-card feature-card-help" href="ajuda.html">
+      <span class="feature-icon">❤️</span><h3>Preciso de ajuda</h3>
+      <p>Encontre caminhos para buscar apoio de verdade.</p><span class="arrow">→</span>
+    </a>
+  </div>
+</section>
+
+<section class="gentle-note container">
+  <div class="note-icon">🌱</div>
+  <div><h3>Sem pressa.</h3><p>Cuidar de si não precisa ser uma tarefa perfeita. Um pequeno passo já pode ser importante.</p></div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div><a class="logo" href="index.html"><span class="logo-mark">☁</span> Respira</a><p>Um espaço de acolhimento e informação.</p></div>
+    <div class="footer-links"><a href="frases.html">Frases</a><a href="calma.html">Momento de calma</a><a href="ajuda.html">Ajuda</a></div>
+  </div>
+  <div class="container disclaimer">Este site é informativo e não substitui avaliação ou acompanhamento de profissionais de saúde.</div>
+</footer>
+<script src="js/frases.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
