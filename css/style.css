@@ -21,3 +21,20 @@ a{color:inherit;text-decoration:none}.container{width:min(1120px,calc(100% - 40p
 @media(max-width:900px){.nav-links{gap:2px}.nav-links a{padding:9px}.hero{grid-template-columns:1fr;padding-top:55px}.hero-art{height:330px}.feature-grid{grid-template-columns:1fr 1fr}.breathing-card{grid-template-columns:1fr;gap:35px;text-align:center}.breathing-circle{width:270px;height:270px}.breathing-info p{margin-left:auto;margin-right:auto}.grounding-grid{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:700px){.container{width:min(100% - 28px,1120px)}.nav{min-height:68px}.menu-toggle{display:block}.nav-links{display:none;position:absolute;top:68px;left:0;right:0;background:rgba(247,250,247,.98);padding:12px 14px 18px;flex-direction:column;align-items:stretch;border-bottom:1px solid var(--line);box-shadow:0 15px 25px rgba(40,70,60,.08)}.nav-links.open{display:flex}.nav-links a{padding:12px 14px}.hero{min-height:auto;padding:65px 0 70px}.hero-art{height:270px}.quote-section,.features{padding:70px 0}.feature-grid,.phrase-tips,.help-grid,.content-section{grid-template-columns:1fr}.grounding-grid{grid-template-columns:1fr 1fr}.info-banner{grid-column:auto}.footer-inner{flex-direction:column}.footer-links{flex-wrap:wrap}.page-hero{padding:65px 0 40px}.breathing-card{padding:30px 20px}.breathing-circle{width:230px;height:230px}.youth-note{margin-bottom:70px}.large-emoji{display:none}h1{letter-spacing:-1px}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+
+/* Historinhas e dicas adicionais */
+.stories-area{display:grid;grid-template-columns:1fr 1fr;gap:20px;padding-bottom:55px}
+.story-card,.tip-card{background:#fff;border:1px solid var(--line);border-radius:24px;padding:30px;box-shadow:0 10px 30px rgba(57,91,79,.05)}
+.story-emoji{display:block;font-size:2rem;margin-bottom:12px}
+.story-card h2{font-size:1.7rem;margin-bottom:14px}
+.story-reflection{margin-top:18px;padding:16px 18px;border-radius:16px;background:var(--soft);color:var(--primary-dark)}
+.story-reflection strong{display:block;margin-bottom:4px}
+.story-ending{padding:25px 0 95px}
+.extra-tips{padding-bottom:95px}
+.extra-tips-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:22px}
+.tip-card h3{margin-bottom:10px}
+.tip-card p{margin:0}
+@media(max-width:800px){.stories-area{grid-template-columns:1fr}.extra-tips-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.extra-tips-grid{grid-template-columns:1fr}.story-card,.tip-card{padding:24px}}
+
+@media(min-width:901px){.feature-grid{grid-template-columns:repeat(5,1fr)}}
